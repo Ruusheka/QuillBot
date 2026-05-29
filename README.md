@@ -306,5 +306,3 @@ The database has been seeded for demonstration purposes, containing:
 * **10+ Historical Q&A Pairs** demonstrating the AI's ability to answer complex electrical derivations while rejecting casual/unrelated prompts.
 
 ---
-#   Q u i l l B o t  
- 
