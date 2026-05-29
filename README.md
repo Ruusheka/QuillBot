@@ -210,7 +210,7 @@ GEMINI_API_KEY=(Your Google AI Studio Key)
 ![Chat Interface](screenshots/chatLanding.png)
 <!-- 4. **Expanded Chat View** - `screenshots/expanded.png` -->
 
-*(Add your images to the `screenshots/` folder to populate these views).*
+<!-- (Add your images to the `screenshots/` folder to populate these views).* -->
 
 ---
 
