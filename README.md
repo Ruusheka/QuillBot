@@ -200,9 +200,14 @@ GEMINI_API_KEY=(Your Google AI Studio Key)
 
 > **Note:** Screenshots are located in the `screenshots/` directory.
 
-1. **Landing Page** - `screenshots/Landing.png`
-2. **Login Page** - `screenshots/Login.png`
-3. **Chat Interface** - `screenshots/chatLanding.png`
+### 1. Landing Page
+![Landing Page](screenshots/Landing.png)
+
+### 2. Login Page
+![Login Page](screenshots/Login.png)
+
+### 3. Chat Interface
+![Chat Interface](screenshots/chatLanding.png)
 <!-- 4. **Expanded Chat View** - `screenshots/expanded.png` -->
 
 *(Add your images to the `screenshots/` folder to populate these views).*
