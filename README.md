@@ -66,11 +66,11 @@ graph TD
     Frontend -- "Updates Chat State" --> Client
 
     %% Styling
-    classDef client fill:#e0f7fa,stroke:#006064,stroke-width:2px;
-    classDef frontend fill:#bbdefb,stroke:#0d47a1,stroke-width:2px;
-    classDef backend fill:#c8e6c9,stroke:#1b5e20,stroke-width:2px;
-    classDef database fill:#ffe0b2,stroke:#e65100,stroke-width:2px;
-    classDef ai fill:#e1bee7,stroke:#4a148c,stroke-width:2px;
+    classDef client fill:#e0f7fa,stroke:#006064,color:#000000,stroke-width:2px;
+    classDef frontend fill:#bbdefb,stroke:#0d47a1,color:#000000,stroke-width:2px;
+    classDef backend fill:#c8e6c9,stroke:#1b5e20,color:#000000,stroke-width:2px;
+    classDef database fill:#ffe0b2,stroke:#e65100,color:#000000,stroke-width:2px;
+    classDef ai fill:#e1bee7,stroke:#4a148c,color:#000000,stroke-width:2px;
 
     class Client client;
     class Frontend,Nginx frontend;
