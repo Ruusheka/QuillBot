@@ -1,6 +1,5 @@
 .env
 venv
-.md
 node_modules/
 build/
 dist/
