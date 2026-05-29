@@ -1,7 +1,7 @@
 # 📌 Quill Bot – Electrical Machines Chatbot
 
 ## 📄 Description
-Quill Bot is a highly specialized, context-aware AI chatbot platform engineered exclusively for the domain of Electrical Machines and Engineering. Built with a robust **React + Django architecture**, it provides intelligent, domain-specific pedagogical guidance. By leveraging the **Google Gemini API**, Quill Bot maintains conversation memory to ensure seamless, contextual interactions while strictly enforcing its educational guardrails against off-topic queries. 
+Quill Bot is a highly specialized, context-aware AI chatbot platform engineered exclusively for the domain of Electrical Machines and Engineering. Built with a robust **React + Django architecture**, it provides intelligent, domain-specific pedagogical guidance. By leveraging the **Google Gemini API**, Quill Bot maintains conversation memory to ensure seamless, contextual interactions while strictly enforcing its educational guardrails against off-topic queries.
 
 ---
 
@@ -305,4 +305,5 @@ The database has been seeded for demonstration purposes, containing:
 * **10 Registered Users** (e.g., student profiles, faculty).
 * **10+ Historical Q&A Pairs** demonstrating the AI's ability to answer complex electrical derivations while rejecting casual/unrelated prompts.
 
----
+#   Q u i l l B o t 
+ 
