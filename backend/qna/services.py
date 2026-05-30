@@ -46,7 +46,7 @@ ELECTRICAL_KEYWORDS = [
     "bulb", "led", "switch", "battery", "capacitor", "resistor",
     "diode", "transistor", "semiconductor", "thyristor", "scr",
     "igbt", "mosfet", "rectifier", "inverter", "converter",
-    "motor","transformer","generator"
+    "motor","transformer","generator",
     # Measurements
     "ammeter", "voltmeter", "wattmeter", "multimeter",
     "oscilloscope", "galvanometer", "potentiometer", "bridge",
@@ -131,7 +131,7 @@ def generate_answer(question_text: str, conversation_history: list = None) -> st
         prompt = f"{SYSTEM_PROMPT}\n\n{context_block}User Question: {question_text}\nAnswer:"
 
         # Direct REST API call — works with all key formats (AIza... and AQ...)
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
         payload = {
             "contents": [{"parts": [{"text": prompt}]}]
         }
@@ -153,6 +153,6 @@ def generate_answer(question_text: str, conversation_history: list = None) -> st
         return answer
 
     except requests.exceptions.HTTPError as e:
-        return "Sorry, the AI service is temporarily unavailable. Please try again in a moment."
+        return f"FULL ERROR: {str(e)}"
     except Exception as e:
         return f"An error occurred while communicating with the AI: {str(e)}"
